@@ -116,6 +116,8 @@ This effectively applies the **Principle of Temporal Locality**, optimizing cach
   Validated against a **reference simulator** using provided trace files.
 - **`cachesim.cpp` (Lab 08):**  
   Benchmarked using **`exa.s`** and **`sort.s`** under multiple cache configurations (1-way, 2-way, 4-way).
+  
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/68dc0c60-1c4f-4327-b676-3cb5ff6fae03" />
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7a4d59d9-2f8a-4287-884e-5b14be42a621" />
 
@@ -125,11 +127,14 @@ This effectively applies the **Principle of Temporal Locality**, optimizing cach
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/fcb11e76-cfd7-45b6-a098-5d42602b7ece" />
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0964d13d-358b-4c64-af1d-b83a3542e980" />
+
 ### **Findings**
 
 - **Key Finding 1:** LRU drastically reduces miss rates, especially in workloads with high temporal locality (e.g., `sort.s`).  
 - **Key Finding 2:** LRU performs best with **higher associativity (4-way)**, as it gains more flexibility in replacement decisions.
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/dee0403a-1082-4a31-9150-fb3246037049" />
 
 ## Tools Used
 
@@ -140,11 +145,11 @@ This effectively applies the **Principle of Temporal Locality**, optimizing cach
 
 # Future Improvements
 
-Implement More Policies: Add and compare LFU, Random, and Pseudo-LRU strategies.
+- Implement More Policies: Add and compare LFU, Random, and Pseudo-LRU strategies.
+- Simulate Write Policies: Include Write-Back vs. Write-Through and Write-Allocate vs. No-Write-Allocate mechanisms.
+- Multi-Level Caches: Extend csim.c to simulate a multi-level (L1 + L2) cache hierarchy.
 
-Simulate Write Policies: Include Write-Back vs. Write-Through and Write-Allocate vs. No-Write-Allocate mechanisms.
-
-Multi-Level Caches: Extend csim.c to simulate a multi-level (L1 + L2) cache hierarchy.
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a78744e4-01f7-4376-8f18-e587fe1e5f4c" />
 
 # License
 
@@ -153,3 +158,10 @@ This project is licensed under the MIT License
 # Summary
 
 This project serves as a practical exploration of cache architecture in computer systems — from designing a simulator to evaluating real-world replacement policies. It bridges theory with implementation, showcasing how software simulation can be used to analyze and optimize hardware-level performance.
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/1fad4ff3-9660-4afc-beab-0597789e3fb8" />
+
+# Regards 
+### **Awais Asghar**
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/2fe9c2c0-50fe-4c80-ac6f-aea4d799a68f" />
