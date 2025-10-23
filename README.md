@@ -13,9 +13,6 @@ This repository contains **two key projects** that explore the core principles o
 - **Cache Simulator:** A fully functional cache simulator built from scratch in C that models cache behavior using valgrind memory traces.
 - **Replacement Policy Analysis:** Implementation and analysis of the **Least Recently Used (LRU)** replacement policy in a C++ cache simulator.
 
-Together, this project demonstrate how cache mapping, operation, and replacement policies affect performance optimization.
-
-
 ## Project Overview
 
 The **"Memory Wall"** problem highlights how CPU speeds have far outpaced main memory speeds. **Caches** bridge this gap by storing frequently used data in small, fast memory blocks. This project explores two core design questions:
@@ -78,9 +75,8 @@ The existing simulator (`cachesim.cpp`) was modified to integrate the **LRU poli
 
 #### **After (LRU Policy)**
 - Each cache line tracks a **timestamp counter**.
-- On every access:
-  - The accessed line resets its counter to **0** (most recently used).
-  - Others increment by **1** (aging).
+- On every access, the accessed line resets its counter to **0** (most recently used).
+- On every access, others increment by **1** (aging).
 - On eviction, the line with the **largest counter** (oldest) is replaced.
 
 This effectively applies the **Principle of Temporal Locality**, optimizing cache efficiency.
@@ -88,6 +84,8 @@ This effectively applies the **Principle of Temporal Locality**, optimizing cach
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/060b06e6-d3e0-461c-b040-3ec66af5b556" />
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/57aa3e23-a15b-47d2-a256-c7beba2357f0" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/68dc0c60-1c4f-4327-b676-3cb5ff6fae03" />
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ec95605b-e4ab-4dfc-8d0b-b814aec537a1" />
 
@@ -114,8 +112,6 @@ This effectively applies the **Principle of Temporal Locality**, optimizing cach
   Validated against a **reference simulator** using provided trace files.
 - **`cachesim.cpp` (Lab 08):**  
   Benchmarked using **`exa.s`** and **`sort.s`** under multiple cache configurations (1-way, 2-way, 4-way).
-  
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/68dc0c60-1c4f-4327-b676-3cb5ff6fae03" />
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9b67af3f-b893-4d5c-a9ba-64268532eb9a" />
 
