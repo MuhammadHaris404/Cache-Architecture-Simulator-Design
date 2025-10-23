@@ -1,4 +1,4 @@
-# 🧠 Cache Architecture: Simulator Design and Policy Analysis
+# Cache Architecture: Simulator Design
 
 ![Project Status](https://img.shields.io/badge/status-Completed-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/platform-Software%20Simulation-blue.svg)
