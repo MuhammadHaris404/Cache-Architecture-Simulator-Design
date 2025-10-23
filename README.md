@@ -91,8 +91,6 @@ This effectively applies the **Principle of Temporal Locality**, optimizing cach
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ec95605b-e4ab-4dfc-8d0b-b814aec537a1" />
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9b67af3f-b893-4d5c-a9ba-64268532eb9a" />
-
 ## Module Structure
 
 | Path | Description |
@@ -118,6 +116,8 @@ This effectively applies the **Principle of Temporal Locality**, optimizing cach
   Benchmarked using **`exa.s`** and **`sort.s`** under multiple cache configurations (1-way, 2-way, 4-way).
   
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/68dc0c60-1c4f-4327-b676-3cb5ff6fae03" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9b67af3f-b893-4d5c-a9ba-64268532eb9a" />
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7a4d59d9-2f8a-4287-884e-5b14be42a621" />
 
