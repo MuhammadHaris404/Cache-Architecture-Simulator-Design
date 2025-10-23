@@ -8,8 +8,8 @@
 
 This repository contains **two key projects** that explore the core principles of cache architecture, both implemented in **C/C++**:
 
-- **Cache Simulator (Lab 09):** A fully functional cache simulator built from scratch in C that models cache behavior using valgrind memory traces.
-- **Replacement Policy Analysis (Lab 08):** Implementation and analysis of the **Least Recently Used (LRU)** replacement policy in a C++ cache simulator.
+- **Cache Simulator:** A fully functional cache simulator built from scratch in C that models cache behavior using valgrind memory traces.
+- **Replacement Policy Analysis:** Implementation and analysis of the **Least Recently Used (LRU)** replacement policy in a C++ cache simulator.
 
 Together, these projects demonstrate how cache mapping, operation, and replacement policies affect performance optimization.
 
