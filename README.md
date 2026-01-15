@@ -17,6 +17,7 @@ This repository contains **two key projects** that explore the core principles o
 
 The **"Memory Wall"** problem highlights how CPU speeds have far outpaced main memory speeds. **Caches** bridge this gap by storing frequently used data in small, fast memory blocks. This project explores two core design questions:
 
+
 1. **How do we design a cache?**  
    By building a flexible simulator (`csim.c`) that can model different cache configurations (Set size, Associativity, Block size) and measure performance.
 
